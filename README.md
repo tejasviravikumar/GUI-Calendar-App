@@ -1,14 +1,32 @@
-# GUI-Calendar-App
+# Calendar App
+#### Video Demo:  <URL HERE>
 #### Description
-This is a calendar app that displays the current month , year and the days in a month . A side panel that stores the event details for that month , and at the bottom view , edit , delete buttons are added , so that the user can make changes or remove an event and view the event details. All the event details are stored in a ```.csv``` file.
+A simple calendar app built with Python and Tkinter that lets users add, view, edit, and delete events. It shows the current month and stores all event details in a ```.csv``` file, with a side panel for easy event management.
 
 #### Features
-**View** : Displays the event details in a pop up window.
-<br>
-**Edit** : Select an event on the side panel to edit the details of an event.
-<br>
-**Delete** : Select an event on the side panel to remove an event.
++ __View__: Opens a pop-up window showing full event details.
 
-#### Project Preview
++ __Edit__: Allows editing of selected events directly from the side panel.
 
++ __Delete__: Removes selected events from the side panel and the database.
+
+#### Libraries
+ `tkinter` – for building the graphical user interface (GUI)
+
+ `datetime` – to fetch the current date, month, and year
+
+ `calendar` – to get month structure (days, weeks, etc.)
+
+ `csv` – to store and retrieve event data from a CSV file
+
+#### Installing Libraries
+To install all the required libraries for this project, run:
+
+```
+pip install -r requirements.txt
+```
+
+This command will install all the dependencies listed in the requirements.txt file.
+
+### Author: Tejasvi R
 
