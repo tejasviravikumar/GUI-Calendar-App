@@ -39,7 +39,7 @@ A nested for loop is used to display all the days in a week , it calls the funct
 To display all the months in a year , it calls the function ```month()``` and a number is passed as an argument. The function ```month()``` returns the month associated with the number passed to the function. ```test_month()``` it checks whether the intended month in returned when a number is passed.
 
 #### CSV File
-In a file called ```database.csv``` , all the event details are stored. By using ```csv.DictWriter``` the event details are written to the ```database.csv``` and '''csv.DictReader''' to fetch the details to be displayed on the calendar.  When the user clicks delete the event details is overwritten on the same file except the event to be deleted and if the user clicks edit the event details are written to the file and the old event details is removed from the ```database.csv``
+In a file called ```database.csv``` , all the event details are stored. By using ```csv.DictWriter``` the event details are written to the ```database.csv``` and '''csv.DictReader''' to fetch the details to be displayed on the calendar.  When the user clicks delete the event details is overwritten on the same file except the event to be deleted and if the user clicks edit the event details are written to the file and the old event details is removed from the ```database.csv```
 
 ### Author: Tejasvi R
 
